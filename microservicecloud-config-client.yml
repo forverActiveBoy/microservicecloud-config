@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: 
+    - dev
+---
+# 开发配置
+server: 
+  port: 8080 
+spring:
+  profiles: dev
+  application:
+    name:  microservicecloud-config-dev
+  
+
+
+---
+# 生产配置
+server: 
+  port: 8081
+spring:
+  profiles: prod
+  application:
+    name:  microservicecloud-config-prod
