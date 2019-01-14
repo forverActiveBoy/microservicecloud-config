@@ -4,7 +4,7 @@ spring:
     - dev
 ---
 # 开发配置
-server
+server: 
   port: 8081
 spring:
   application:
@@ -14,7 +14,7 @@ spring:
 
 ---
 # 生产配置
-server
+server: 
   port: 8082
 spring:
   application:
