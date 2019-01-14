@@ -4,6 +4,8 @@ spring:
     - dev
 ---
 # 开发配置
+server
+  port: 8081
 spring:
   application:
     name:  microservicecloud-config-dev
@@ -12,6 +14,8 @@ spring:
 
 ---
 # 生产配置
+server
+  port: 8082
 spring:
   application:
     name:  microservicecloud-config-prod
