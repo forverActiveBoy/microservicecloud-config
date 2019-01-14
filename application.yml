@@ -1,3 +1,18 @@
 spring:
   profiles:
-    active: dev
+    active: 
+    - dev
+---
+# 开发配置
+spring:
+  application:
+    name:  microservicecloud-config-dev
+  profiles: dev
+
+
+---
+# 生产配置
+spring:
+  application:
+    name:  microservicecloud-config-prod
+  profiles: prod
